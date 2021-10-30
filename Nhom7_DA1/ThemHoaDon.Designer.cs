@@ -136,7 +136,7 @@ namespace Nhom7_DA1
             this.dtpNgayLap.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtpNgayLap.Location = new System.Drawing.Point(188, 151);
             this.dtpNgayLap.Margin = new System.Windows.Forms.Padding(4);
-            this.dtpNgayLap.MaxDate = new System.DateTime(1999, 12, 31, 0, 0, 0, 0);
+            this.dtpNgayLap.MaxDate = new System.DateTime(2099, 12, 31, 0, 0, 0, 0);
             this.dtpNgayLap.Name = "dtpNgayLap";
             this.dtpNgayLap.Size = new System.Drawing.Size(139, 22);
             this.dtpNgayLap.TabIndex = 7;

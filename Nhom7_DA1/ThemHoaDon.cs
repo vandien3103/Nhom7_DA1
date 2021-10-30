@@ -35,7 +35,8 @@ namespace Nhom7_DA1
             SqlCommand cmdcheckmahd = new SqlCommand();
             cmdcheckmahd.CommandText = sqlcheckmahd;
             cmdcheckmahd.Connection = cnn;
-            SqlDataReader mahd = cmdcheckmahd.ExecuteReader();
+            SqlDataReader mahd = null;
+            mahd = cmdcheckmahd.ExecuteReader();
 
             DateTime ngaynhap = dtpNgayLap.Value;
             DateTime date1 = new DateTime(2020, 5, 1);
