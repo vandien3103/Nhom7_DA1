@@ -31,6 +31,10 @@ namespace Nhom7_DA1
         {
             this.btnBack = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.btnTaoBang = new System.Windows.Forms.Button();
             this.dtpNgayLap = new System.Windows.Forms.DateTimePicker();
             this.tbtongtien = new System.Windows.Forms.TextBox();
@@ -57,6 +61,10 @@ namespace Nhom7_DA1
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.btnTaoBang);
             this.groupBox1.Controls.Add(this.dtpNgayLap);
             this.groupBox1.Controls.Add(this.tbtongtien);
@@ -70,10 +78,46 @@ namespace Nhom7_DA1
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox1.Size = new System.Drawing.Size(451, 292);
+            this.groupBox1.Size = new System.Drawing.Size(752, 292);
             this.groupBox1.TabIndex = 10;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thêm hóa đơn";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(397, 196);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(113, 17);
+            this.label3.TabIndex = 14;
+            this.label3.Text = "Mặc định bằng 0";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(397, 150);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(274, 17);
+            this.label4.TabIndex = 13;
+            this.label4.Text = "Nhập ngày trong khoảng: 5/2020 - 6/2021";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(397, 102);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(242, 17);
+            this.label2.TabIndex = 11;
+            this.label2.Text = "Cú pháp \'KH\' + \'số thứ tự\'. Ví dụ: KH1";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(397, 50);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(244, 17);
+            this.label1.TabIndex = 10;
+            this.label1.Text = "Cú pháp \'HD\' + \'số thứ tự\'. Ví dụ: HD1";
             // 
             // btnTaoBang
             // 
@@ -88,12 +132,15 @@ namespace Nhom7_DA1
             // 
             // dtpNgayLap
             // 
-            this.dtpNgayLap.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpNgayLap.CustomFormat = "dd/MM/yyyy";
+            this.dtpNgayLap.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtpNgayLap.Location = new System.Drawing.Point(188, 151);
             this.dtpNgayLap.Margin = new System.Windows.Forms.Padding(4);
+            this.dtpNgayLap.MaxDate = new System.DateTime(1999, 12, 31, 0, 0, 0, 0);
             this.dtpNgayLap.Name = "dtpNgayLap";
             this.dtpNgayLap.Size = new System.Drawing.Size(139, 22);
             this.dtpNgayLap.TabIndex = 7;
+            this.dtpNgayLap.Value = new System.DateTime(1999, 12, 31, 0, 0, 0, 0);
             // 
             // tbtongtien
             // 
@@ -102,6 +149,7 @@ namespace Nhom7_DA1
             this.tbtongtien.Name = "tbtongtien";
             this.tbtongtien.Size = new System.Drawing.Size(159, 22);
             this.tbtongtien.TabIndex = 6;
+            this.tbtongtien.Text = "0";
             // 
             // tbMaKH
             // 
@@ -167,7 +215,7 @@ namespace Nhom7_DA1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(571, 450);
+            this.ClientSize = new System.Drawing.Size(862, 414);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.groupBox1);
             this.Name = "ThemHoaDon";
@@ -193,5 +241,9 @@ namespace Nhom7_DA1
         private System.Windows.Forms.Label lbngaylap;
         private System.Windows.Forms.Label lbMaKH;
         private System.Windows.Forms.Label lbMaHD;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
     }
 }

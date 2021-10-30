@@ -36,6 +36,12 @@ namespace Nhom7_DA1
             cmdcheckmahd.CommandText = sqlcheckmahd;
             cmdcheckmahd.Connection = cnn;
             SqlDataReader mahd = cmdcheckmahd.ExecuteReader();
+
+            DateTime ngaynhap = dtpNgayLap.Value;
+            DateTime date1 = new DateTime(2020, 5, 1);
+            DateTime date2 = new DateTime(2021, 6, 30);
+            int resutl1 = DateTime.Compare(ngaynhap, date1);
+            int resutl2 = DateTime.Compare(ngaynhap, date2);
             if (string.IsNullOrWhiteSpace(tbMaHD.Text))
             {
                 MessageBox.Show("Bạn chưa nhập MaHD", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -52,6 +58,12 @@ namespace Nhom7_DA1
             {
                 MessageBox.Show("Bạn chưa nhập MaKH", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 tbMaKH.Focus();
+                return false;
+            }
+            if (resutl1 == -1 && resutl2 == 1)
+            {
+                MessageBox.Show("Bạn chọn ngày sai, vui lòng chọn lại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                dtpNgayLap.Focus();
                 return false;
             }
             if (string.IsNullOrWhiteSpace(tbtongtien.Text))
