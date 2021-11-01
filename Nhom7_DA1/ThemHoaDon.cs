@@ -49,12 +49,12 @@ namespace Nhom7_DA1
                 tbMaHD.Focus();
                 return false;
             }
-            if (mahd.Read() == true)
-            {
-                MessageBox.Show("Mã hóa đơn đã tồn tại!!!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                tbMaHD.Focus();
-                return false;
-            }
+            //if (mahd.Read() == true)
+            //{
+            //    MessageBox.Show("Mã hóa đơn đã tồn tại!!!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            //    tbMaHD.Focus();
+            //    return false;
+            //}
             if (string.IsNullOrWhiteSpace(tbMaKH.Text))
             {
                 MessageBox.Show("Bạn chưa nhập MaKH", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
