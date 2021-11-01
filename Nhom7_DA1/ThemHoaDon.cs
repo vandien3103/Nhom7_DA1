@@ -35,8 +35,7 @@ namespace Nhom7_DA1
             SqlCommand cmdcheckmahd = new SqlCommand();
             cmdcheckmahd.CommandText = sqlcheckmahd;
             cmdcheckmahd.Connection = cnn;
-            SqlDataReader mahd = null;
-            mahd = cmdcheckmahd.ExecuteReader();
+            SqlDataReader mahd = cmdcheckmahd.ExecuteReader();
 
             DateTime ngaynhap = dtpNgayLap.Value;
             DateTime date1 = new DateTime(2020, 5, 1);
@@ -77,6 +76,7 @@ namespace Nhom7_DA1
         }
         private void btnTaoBang_Click(object sender, EventArgs e)
         {
+
             if (checkdata() == true)
             {
                 string sqlInsert = "insert into HoaDon values(@MaHD, @MaKH, @NgayLap, @TongTien)";
@@ -87,10 +87,11 @@ namespace Nhom7_DA1
                 cmd.Parameters.AddWithValue("MaKH", tbMaKH.Text);
                 cmd.Parameters.AddWithValue("NgayLap", dtpNgayLap.Text);
                 cmd.Parameters.AddWithValue("TongTien", tbtongtien.Text);
-                cmd.ExecuteNonQuery();
+                cmd.ExecuteReader();
                 MessageBox.Show("Tạo hóa đơn thành công");
             }
         }
+
         private void btnBack_Click(object sender, EventArgs e)
         {
             Menu mn = new Menu();
