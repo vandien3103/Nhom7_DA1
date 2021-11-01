@@ -140,7 +140,7 @@ namespace Nhom7_DA1
             this.dtpNgayLap.Name = "dtpNgayLap";
             this.dtpNgayLap.Size = new System.Drawing.Size(139, 22);
             this.dtpNgayLap.TabIndex = 7;
-            this.dtpNgayLap.Value = new System.DateTime(1999, 12, 31, 0, 0, 0, 0);
+            this.dtpNgayLap.Value = new System.DateTime(2021, 3, 31, 0, 0, 0, 0);
             // 
             // tbtongtien
             // 

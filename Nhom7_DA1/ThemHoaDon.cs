@@ -42,6 +42,7 @@ namespace Nhom7_DA1
             DateTime date2 = new DateTime(2021, 6, 30);
             int resutl1 = DateTime.Compare(ngaynhap, date1);
             int resutl2 = DateTime.Compare(ngaynhap, date2);
+
             if (string.IsNullOrWhiteSpace(tbMaHD.Text))
             {
                 MessageBox.Show("Bạn chưa nhập MaHD", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -72,6 +73,7 @@ namespace Nhom7_DA1
                 tbtongtien.Focus();
                 return false;
             }
+            mahd.Close();
             return true;
         }
         private void btnTaoBang_Click(object sender, EventArgs e)
@@ -85,11 +87,21 @@ namespace Nhom7_DA1
                 cmd.Connection = cnn;
                 cmd.Parameters.AddWithValue("MaHD", tbMaHD.Text);
                 cmd.Parameters.AddWithValue("MaKH", tbMaKH.Text);
-                cmd.Parameters.AddWithValue("NgayLap", dtpNgayLap.Text);
+                cmd.Parameters.AddWithValue("NgayLap", dtpNgayLap.Value);
                 cmd.Parameters.AddWithValue("TongTien", tbtongtien.Text);
-                cmd.ExecuteReader();
+                cmd.ExecuteNonQuery();
                 MessageBox.Show("Tạo hóa đơn thành công");
             }
+            //string sqlInsert = "insert into HoaDon values(@MaHD, @MaKH, @NgayLap, @TongTien)";
+            //SqlCommand cmd = new SqlCommand();
+            //cmd.CommandText = sqlInsert;
+            //cmd.Connection = cnn;
+            //cmd.Parameters.AddWithValue("MaHD", tbMaHD.Text);
+            //cmd.Parameters.AddWithValue("MaKH", tbMaKH.Text);
+            //cmd.Parameters.AddWithValue("NgayLap", dtpNgayLap.Value);
+            //cmd.Parameters.AddWithValue("TongTien", tbtongtien.Text);
+            //cmd.ExecuteReader();
+            //MessageBox.Show("Tạo hóa đơn thành công");
         }
 
         private void btnBack_Click(object sender, EventArgs e)
