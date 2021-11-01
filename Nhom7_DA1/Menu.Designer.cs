@@ -44,9 +44,11 @@ namespace Nhom7_DA1
             // 
             this.groupBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.groupBox1.Controls.Add(this.groupBox2);
-            this.groupBox1.Location = new System.Drawing.Point(24, 12);
+            this.groupBox1.Location = new System.Drawing.Point(18, 10);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(992, 503);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Size = new System.Drawing.Size(744, 409);
             this.groupBox1.TabIndex = 11;
             this.groupBox1.TabStop = false;
             // 
@@ -58,9 +60,11 @@ namespace Nhom7_DA1
             this.groupBox2.Controls.Add(this.btn_themhoadon);
             this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Controls.Add(this.label1);
-            this.groupBox2.Location = new System.Drawing.Point(41, 38);
+            this.groupBox2.Location = new System.Drawing.Point(31, 31);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(915, 432);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Size = new System.Drawing.Size(686, 351);
             this.groupBox2.TabIndex = 10;
             this.groupBox2.TabStop = false;
             // 
@@ -68,22 +72,21 @@ namespace Nhom7_DA1
             // 
             this.btn_doanhthu.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btn_doanhthu.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_doanhthu.Location = new System.Drawing.Point(664, 289);
-            this.btn_doanhthu.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_doanhthu.Location = new System.Drawing.Point(498, 235);
             this.btn_doanhthu.Name = "btn_doanhthu";
-            this.btn_doanhthu.Size = new System.Drawing.Size(193, 60);
+            this.btn_doanhthu.Size = new System.Drawing.Size(145, 49);
             this.btn_doanhthu.TabIndex = 9;
             this.btn_doanhthu.Text = "Doanh thu";
             this.btn_doanhthu.UseVisualStyleBackColor = false;
+            this.btn_doanhthu.Click += new System.EventHandler(this.btn_doanhthu_Click);
             // 
             // btn_xemdshoadon
             // 
             this.btn_xemdshoadon.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btn_xemdshoadon.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_xemdshoadon.Location = new System.Drawing.Point(309, 289);
-            this.btn_xemdshoadon.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_xemdshoadon.Location = new System.Drawing.Point(232, 235);
             this.btn_xemdshoadon.Name = "btn_xemdshoadon";
-            this.btn_xemdshoadon.Size = new System.Drawing.Size(285, 60);
+            this.btn_xemdshoadon.Size = new System.Drawing.Size(214, 49);
             this.btn_xemdshoadon.TabIndex = 8;
             this.btn_xemdshoadon.Text = "Xem danh sách hóa đơn";
             this.btn_xemdshoadon.UseVisualStyleBackColor = false;
@@ -92,10 +95,9 @@ namespace Nhom7_DA1
             // 
             this.btn_themhoadon.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btn_themhoadon.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_themhoadon.Location = new System.Drawing.Point(42, 289);
-            this.btn_themhoadon.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_themhoadon.Location = new System.Drawing.Point(32, 235);
             this.btn_themhoadon.Name = "btn_themhoadon";
-            this.btn_themhoadon.Size = new System.Drawing.Size(193, 60);
+            this.btn_themhoadon.Size = new System.Drawing.Size(145, 49);
             this.btn_themhoadon.TabIndex = 7;
             this.btn_themhoadon.Text = "Thêm hóa đơn";
             this.btn_themhoadon.UseVisualStyleBackColor = false;
@@ -105,10 +107,9 @@ namespace Nhom7_DA1
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(261, 176);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(196, 143);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(365, 24);
+            this.label2.Size = new System.Drawing.Size(277, 18);
             this.label2.TabIndex = 6;
             this.label2.Text = "Vui lòng chọn chức năng muốn thực hiện!";
             // 
@@ -117,19 +118,19 @@ namespace Nhom7_DA1
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Consolas", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label1.Location = new System.Drawing.Point(237, 64);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(178, 52);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(406, 51);
+            this.label1.Size = new System.Drawing.Size(322, 41);
             this.label1.TabIndex = 0;
             this.label1.Text = "Quản Lý Bán Hàng";
             // 
             // Menu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1044, 531);
+            this.ClientSize = new System.Drawing.Size(783, 431);
             this.Controls.Add(this.groupBox1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Menu";
             this.Text = "Menu";
             this.groupBox1.ResumeLayout(false);

@@ -25,5 +25,13 @@ namespace Nhom7_DA1
             thd.Show();
             this.Hide();
         }
+
+        private void btn_doanhthu_Click(object sender, EventArgs e)
+        {
+            DoanhThu thd = new DoanhThu();
+            thd.Activate();
+            thd.Show();
+            this.Hide();
+        }
     }
 }

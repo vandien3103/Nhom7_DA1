@@ -67,6 +67,9 @@
     <Compile Include="ThemHoaDon.Designer.cs">
       <DependentUpon>ThemHoaDon.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="DoanhThu.resx">
+      <DependentUpon>DoanhThu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
     </EmbeddedResource>
