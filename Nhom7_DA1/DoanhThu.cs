@@ -34,7 +34,7 @@ namespace Nhom7_DA1
 
         private void xem_Click(object sender, EventArgs e)
         {
-            string sqlDoanhThu = "select * from KhachHang ";
+            string sqlDoanhThu = "select ThanhTien from CT_HoaDon ";
             SqlCommand cmd = new SqlCommand();
             cmd.CommandText = sqlDoanhThu;
             cmd.Connection = cnn;
@@ -47,5 +47,30 @@ namespace Nhom7_DA1
             dgvDoanhThu.DataSource = dt;
         }
 
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnBackToMenu_Click(object sender, EventArgs e)
+        {
+            Menu mn = new Menu();
+            mn.Activate();
+            mn.Show();
+            this.Hide();
+        }
+
+        private void dgvDoanhThu_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void homeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Menu mn = new Menu();
+            mn.Activate();
+            mn.Show();
+            this.Hide();
+        }
     }
 }
