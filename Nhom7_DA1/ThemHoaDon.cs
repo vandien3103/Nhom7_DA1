@@ -111,5 +111,58 @@ namespace Nhom7_DA1
             mn.Show();
             this.Hide();
         }
+
+        private void tbMaHD_TextChanged(object sender, EventArgs e)
+        {
+            string value = tbMaHD.Text;
+            int len = value.Length;
+            if (tbMaHD.Text == "H" || tbMaHD.Text == "HD")
+            {
+            }
+            else
+            if (len <= 2)
+            {
+                MessageBox.Show("Cú pháp: HD + 'số thứ tự' ");
+                tbMaHD.Clear();
+            }
+            else
+                if (value[len - 1] != '0' && value[len - 1] != '1' && value[len - 1] != '2' && value[len - 1] != '3' && value[len - 1] != '4' && value[len - 1] != '5' && value[len - 1] != '6' && value[len - 1] != '7' && value[len - 1] != '8' && value[len - 1] != '9')
+            {
+                MessageBox.Show("Cú pháp: HD + 'số thứ tự' ");
+                tbMaHD.Clear();
+            }
+        }
+
+        private void tbMaKH_TextChanged(object sender, EventArgs e)
+        {
+            string value = tbMaKH.Text;
+            int len = value.Length;
+            if (tbMaKH.Text == "K" || tbMaKH.Text == "KH")
+            {
+            }
+            else
+            if (len <= 2)
+            {
+                MessageBox.Show("Cú pháp: KH + 'số thứ tự' ");
+                tbMaKH.Clear();
+            }
+            else
+                if (value[len - 1] != '0' && value[len - 1] != '1' && value[len - 1] != '2' && value[len - 1] != '3' && value[len - 1] != '4' && value[len - 1] != '5' && value[len - 1] != '6' && value[len - 1] != '7' && value[len - 1] != '8' && value[len - 1] != '9')
+            {
+                MessageBox.Show("Cú pháp: KH + 'số thứ tự' ");
+                tbMaKH.Clear();
+            }
+        }
+
+        private void dtpNgayLap_ValueChanged(object sender, EventArgs e)
+        {
+            DateTime ngay = dtpNgayLap.Value;
+            
+            if ((ngay.Month<5 && ngay.Year<=2020)||(ngay.Month>6 && ngay.Year>=2021))
+            {
+                MessageBox.Show("Nhập ngày trong khoảng: 5/2020 - 6/2021");
+                dtpNgayLap.Refresh();
+            }    
+        }
     }
 }
