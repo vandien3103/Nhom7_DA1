@@ -164,5 +164,13 @@ namespace Nhom7_DA1
                 dtpNgayLap.Refresh();
             }    
         }
+
+        private void hoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Menu mn = new Menu();
+            mn.Activate();
+            mn.Show();
+            this.Hide();
+        }
     }
 }

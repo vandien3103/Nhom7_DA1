@@ -33,7 +33,6 @@ namespace Nhom7_DA1
             this.xem = new System.Windows.Forms.Button();
             this.dgvDoanhThu = new System.Windows.Forms.DataGridView();
             this.btnBackToMenu = new System.Windows.Forms.Button();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.menuStrip2 = new System.Windows.Forms.MenuStrip();
             this.homeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
@@ -43,39 +42,34 @@ namespace Nhom7_DA1
             // 
             // xem
             // 
-            this.xem.Location = new System.Drawing.Point(46, 67);
+            this.xem.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.xem.Location = new System.Drawing.Point(46, 270);
             this.xem.Name = "xem";
-            this.xem.Size = new System.Drawing.Size(111, 23);
+            this.xem.Size = new System.Drawing.Size(111, 33);
             this.xem.TabIndex = 1;
             this.xem.Text = "Xem Doanh Thu";
-            this.xem.UseVisualStyleBackColor = true;
+            this.xem.UseVisualStyleBackColor = false;
             this.xem.Click += new System.EventHandler(this.xem_Click);
             // 
             // dgvDoanhThu
             // 
+            this.dgvDoanhThu.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
             this.dgvDoanhThu.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvDoanhThu.Location = new System.Drawing.Point(175, 67);
+            this.dgvDoanhThu.Location = new System.Drawing.Point(46, 76);
             this.dgvDoanhThu.Name = "dgvDoanhThu";
-            this.dgvDoanhThu.Size = new System.Drawing.Size(416, 219);
+            this.dgvDoanhThu.Size = new System.Drawing.Size(345, 179);
             this.dgvDoanhThu.TabIndex = 2;
             // 
             // btnBackToMenu
             // 
-            this.btnBackToMenu.Location = new System.Drawing.Point(46, 247);
+            this.btnBackToMenu.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnBackToMenu.Location = new System.Drawing.Point(523, 270);
             this.btnBackToMenu.Name = "btnBackToMenu";
-            this.btnBackToMenu.Size = new System.Drawing.Size(75, 39);
+            this.btnBackToMenu.Size = new System.Drawing.Size(75, 33);
             this.btnBackToMenu.TabIndex = 3;
             this.btnBackToMenu.Text = "Back";
-            this.btnBackToMenu.UseVisualStyleBackColor = true;
+            this.btnBackToMenu.UseVisualStyleBackColor = false;
             this.btnBackToMenu.Click += new System.EventHandler(this.btnBackToMenu_Click);
-            // 
-            // menuStrip1
-            // 
-            this.menuStrip1.Location = new System.Drawing.Point(0, 24);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(648, 24);
-            this.menuStrip1.TabIndex = 4;
-            this.menuStrip1.Text = "menuStrip1";
             // 
             // menuStrip2
             // 
@@ -98,8 +92,10 @@ namespace Nhom7_DA1
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(152, 17);
+            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.Location = new System.Drawing.Point(168, 31);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(301, 31);
             this.label1.TabIndex = 6;
@@ -109,14 +105,14 @@ namespace Nhom7_DA1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(648, 315);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnBackToMenu);
             this.Controls.Add(this.dgvDoanhThu);
             this.Controls.Add(this.xem);
-            this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.menuStrip2);
-            this.MainMenuStrip = this.menuStrip1;
+            this.ForeColor = System.Drawing.Color.Black;
             this.Name = "DoanhThu";
             this.Text = "DoanhThu";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.DoanhThu_FormClosing);
@@ -133,7 +129,6 @@ namespace Nhom7_DA1
         private System.Windows.Forms.Button xem;
         private System.Windows.Forms.DataGridView dgvDoanhThu;
         private System.Windows.Forms.Button btnBackToMenu;
-        private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.MenuStrip menuStrip2;
         private System.Windows.Forms.ToolStripMenuItem homeToolStripMenuItem;
         private System.Windows.Forms.Label label1;

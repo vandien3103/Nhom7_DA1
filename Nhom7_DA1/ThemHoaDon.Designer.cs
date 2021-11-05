@@ -29,6 +29,7 @@ namespace Nhom7_DA1
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ThemHoaDon));
             this.btnBack = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -44,17 +45,21 @@ namespace Nhom7_DA1
             this.lbngaylap = new System.Windows.Forms.Label();
             this.lbMaKH = new System.Windows.Forms.Label();
             this.lbMaHD = new System.Windows.Forms.Label();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.hoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox1.SuspendLayout();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnBack
             // 
-            this.btnBack.Location = new System.Drawing.Point(46, 289);
+            this.btnBack.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnBack.Location = new System.Drawing.Point(43, 289);
             this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(77, 37);
+            this.btnBack.Size = new System.Drawing.Size(77, 27);
             this.btnBack.TabIndex = 11;
             this.btnBack.Text = "Back";
-            this.btnBack.UseVisualStyleBackColor = true;
+            this.btnBack.UseVisualStyleBackColor = false;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
             // groupBox1
@@ -73,7 +78,7 @@ namespace Nhom7_DA1
             this.groupBox1.Controls.Add(this.lbngaylap);
             this.groupBox1.Controls.Add(this.lbMaKH);
             this.groupBox1.Controls.Add(this.lbMaHD);
-            this.groupBox1.Location = new System.Drawing.Point(46, 23);
+            this.groupBox1.Location = new System.Drawing.Point(43, 37);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(564, 237);
             this.groupBox1.TabIndex = 10;
@@ -147,7 +152,7 @@ namespace Nhom7_DA1
             // 
             this.tbtongtien.Location = new System.Drawing.Point(141, 159);
             this.tbtongtien.Name = "tbtongtien";
-            this.tbtongtien.Size = new System.Drawing.Size(120, 20);
+            this.tbtongtien.Size = new System.Drawing.Size(129, 20);
             this.tbtongtien.TabIndex = 6;
             this.tbtongtien.Text = "0";
             // 
@@ -207,6 +212,24 @@ namespace Nhom7_DA1
             this.lbMaHD.TabIndex = 0;
             this.lbMaHD.Text = "MaHD";
             // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.hoToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(646, 24);
+            this.menuStrip1.TabIndex = 12;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // hoToolStripMenuItem
+            // 
+            this.hoToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("hoToolStripMenuItem.Image")));
+            this.hoToolStripMenuItem.Name = "hoToolStripMenuItem";
+            this.hoToolStripMenuItem.Size = new System.Drawing.Size(68, 20);
+            this.hoToolStripMenuItem.Text = "Home";
+            this.hoToolStripMenuItem.Click += new System.EventHandler(this.hoToolStripMenuItem_Click);
+            // 
             // ThemHoaDon
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -214,6 +237,7 @@ namespace Nhom7_DA1
             this.ClientSize = new System.Drawing.Size(646, 336);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.menuStrip1);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "ThemHoaDon";
             this.Text = "ThemHoaDon";
@@ -221,7 +245,10 @@ namespace Nhom7_DA1
             this.Load += new System.EventHandler(this.ThemHoaDon_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -242,5 +269,7 @@ namespace Nhom7_DA1
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem hoToolStripMenuItem;
     }
 }
