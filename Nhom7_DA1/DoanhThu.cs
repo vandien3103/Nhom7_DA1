@@ -34,7 +34,7 @@ namespace Nhom7_DA1
 
         private void xem_Click(object sender, EventArgs e)
         {
-            string sqlDoanhThu = "select ThanhTien from CT_HoaDon ";
+            string sqlDoanhThu = "SELECT Month(NgayLap) as Tháng, Year(NgayLap) as Năm, SUM(TongTien) [Doanh Thu] FROM HoaDon GROUP BY Month(NgayLap), Year(NgayLap) ORDER BY Year(NgayLap)";
             SqlCommand cmd = new SqlCommand();
             cmd.CommandText = sqlDoanhThu;
             cmd.Connection = cnn;
@@ -47,22 +47,12 @@ namespace Nhom7_DA1
             dgvDoanhThu.DataSource = dt;
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnBackToMenu_Click(object sender, EventArgs e)
         {
             Menu mn = new Menu();
             mn.Activate();
             mn.Show();
             this.Hide();
-        }
-
-        private void dgvDoanhThu_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
         }
 
         private void homeToolStripMenuItem_Click(object sender, EventArgs e)

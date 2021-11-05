@@ -58,7 +58,6 @@ namespace Nhom7_DA1
             this.dgvDoanhThu.Name = "dgvDoanhThu";
             this.dgvDoanhThu.Size = new System.Drawing.Size(416, 219);
             this.dgvDoanhThu.TabIndex = 2;
-            this.dgvDoanhThu.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDoanhThu_CellContentClick);
             // 
             // btnBackToMenu
             // 
