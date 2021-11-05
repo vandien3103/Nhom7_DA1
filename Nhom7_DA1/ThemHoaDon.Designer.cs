@@ -146,7 +146,6 @@ namespace Nhom7_DA1
             this.dtpNgayLap.Size = new System.Drawing.Size(105, 20);
             this.dtpNgayLap.TabIndex = 7;
             this.dtpNgayLap.Value = new System.DateTime(2021, 3, 31, 0, 0, 0, 0);
-            this.dtpNgayLap.ValueChanged += new System.EventHandler(this.dtpNgayLap_ValueChanged);
             // 
             // tbtongtien
             // 
@@ -162,7 +161,6 @@ namespace Nhom7_DA1
             this.tbMaKH.Name = "tbMaKH";
             this.tbMaKH.Size = new System.Drawing.Size(129, 20);
             this.tbMaKH.TabIndex = 5;
-            this.tbMaKH.TextChanged += new System.EventHandler(this.tbMaKH_TextChanged);
             // 
             // tbMaHD
             // 
@@ -170,7 +168,6 @@ namespace Nhom7_DA1
             this.tbMaHD.Name = "tbMaHD";
             this.tbMaHD.Size = new System.Drawing.Size(129, 20);
             this.tbMaHD.TabIndex = 4;
-            this.tbMaHD.TextChanged += new System.EventHandler(this.tbMaHD_TextChanged);
             // 
             // lbtongtien
             // 

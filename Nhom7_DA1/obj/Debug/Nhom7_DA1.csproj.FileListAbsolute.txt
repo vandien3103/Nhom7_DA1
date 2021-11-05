@@ -57,3 +57,15 @@ D:\New folder\Nhom7_DA1\Nhom7_DA1\obj\Debug\Nhom7_DA1.csproj.GenerateResource.ca
 D:\New folder\Nhom7_DA1\Nhom7_DA1\obj\Debug\Nhom7_DA1.csproj.CoreCompileInputs.cache
 D:\New folder\Nhom7_DA1\Nhom7_DA1\obj\Debug\Nhom7_DA1.exe
 D:\New folder\Nhom7_DA1\Nhom7_DA1\obj\Debug\Nhom7_DA1.pdb
+C:\Users\nvdien\Desktop\Nhom7_DA1\Nhom7_DA1\bin\Debug\Nhom7_DA1.exe.config
+C:\Users\nvdien\Desktop\Nhom7_DA1\Nhom7_DA1\bin\Debug\Nhom7_DA1.exe
+C:\Users\nvdien\Desktop\Nhom7_DA1\Nhom7_DA1\bin\Debug\Nhom7_DA1.pdb
+C:\Users\nvdien\Desktop\Nhom7_DA1\Nhom7_DA1\obj\Debug\Nhom7_DA1.csproj.AssemblyReference.cache
+C:\Users\nvdien\Desktop\Nhom7_DA1\Nhom7_DA1\obj\Debug\Nhom7_DA1.DoanhThu.resources
+C:\Users\nvdien\Desktop\Nhom7_DA1\Nhom7_DA1\obj\Debug\Nhom7_DA1.Menu.resources
+C:\Users\nvdien\Desktop\Nhom7_DA1\Nhom7_DA1\obj\Debug\Nhom7_DA1.Properties.Resources.resources
+C:\Users\nvdien\Desktop\Nhom7_DA1\Nhom7_DA1\obj\Debug\Nhom7_DA1.ThemHoaDon.resources
+C:\Users\nvdien\Desktop\Nhom7_DA1\Nhom7_DA1\obj\Debug\Nhom7_DA1.csproj.GenerateResource.cache
+C:\Users\nvdien\Desktop\Nhom7_DA1\Nhom7_DA1\obj\Debug\Nhom7_DA1.csproj.CoreCompileInputs.cache
+C:\Users\nvdien\Desktop\Nhom7_DA1\Nhom7_DA1\obj\Debug\Nhom7_DA1.exe
+C:\Users\nvdien\Desktop\Nhom7_DA1\Nhom7_DA1\obj\Debug\Nhom7_DA1.pdb
