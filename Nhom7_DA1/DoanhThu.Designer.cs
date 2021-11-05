@@ -43,7 +43,7 @@ namespace Nhom7_DA1
             // xem
             // 
             this.xem.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.xem.Location = new System.Drawing.Point(46, 270);
+            this.xem.Location = new System.Drawing.Point(45, 275);
             this.xem.Name = "xem";
             this.xem.Size = new System.Drawing.Size(111, 33);
             this.xem.TabIndex = 1;
@@ -106,7 +106,7 @@ namespace Nhom7_DA1
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(648, 315);
+            this.ClientSize = new System.Drawing.Size(648, 324);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnBackToMenu);
             this.Controls.Add(this.dgvDoanhThu);

@@ -54,9 +54,9 @@ namespace Nhom7_DA1
             // btnBack
             // 
             this.btnBack.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btnBack.Location = new System.Drawing.Point(43, 289);
+            this.btnBack.Location = new System.Drawing.Point(530, 273);
             this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(77, 27);
+            this.btnBack.Size = new System.Drawing.Size(77, 31);
             this.btnBack.TabIndex = 11;
             this.btnBack.Text = "Back";
             this.btnBack.UseVisualStyleBackColor = false;
@@ -69,7 +69,6 @@ namespace Nhom7_DA1
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.btnTaoBang);
             this.groupBox1.Controls.Add(this.dtpNgayLap);
             this.groupBox1.Controls.Add(this.tbtongtien);
             this.groupBox1.Controls.Add(this.tbMaKH);
@@ -80,7 +79,7 @@ namespace Nhom7_DA1
             this.groupBox1.Controls.Add(this.lbMaHD);
             this.groupBox1.Location = new System.Drawing.Point(43, 37);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(564, 237);
+            this.groupBox1.Size = new System.Drawing.Size(564, 210);
             this.groupBox1.TabIndex = 10;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thêm hóa đơn";
@@ -88,7 +87,7 @@ namespace Nhom7_DA1
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(298, 159);
+            this.label3.Location = new System.Drawing.Point(298, 153);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(88, 13);
@@ -98,7 +97,7 @@ namespace Nhom7_DA1
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(298, 122);
+            this.label4.Location = new System.Drawing.Point(298, 116);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(210, 13);
@@ -108,7 +107,7 @@ namespace Nhom7_DA1
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(298, 83);
+            this.label2.Location = new System.Drawing.Point(298, 77);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(185, 13);
@@ -118,7 +117,7 @@ namespace Nhom7_DA1
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(298, 41);
+            this.label1.Location = new System.Drawing.Point(298, 35);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(187, 13);
@@ -127,19 +126,20 @@ namespace Nhom7_DA1
             // 
             // btnTaoBang
             // 
-            this.btnTaoBang.Location = new System.Drawing.Point(141, 206);
+            this.btnTaoBang.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnTaoBang.Location = new System.Drawing.Point(43, 273);
             this.btnTaoBang.Name = "btnTaoBang";
-            this.btnTaoBang.Size = new System.Drawing.Size(56, 25);
+            this.btnTaoBang.Size = new System.Drawing.Size(56, 31);
             this.btnTaoBang.TabIndex = 8;
             this.btnTaoBang.Text = "Tạo";
-            this.btnTaoBang.UseVisualStyleBackColor = true;
+            this.btnTaoBang.UseVisualStyleBackColor = false;
             this.btnTaoBang.Click += new System.EventHandler(this.btnTaoBang_Click);
             // 
             // dtpNgayLap
             // 
             this.dtpNgayLap.CustomFormat = "dd/MM/yyyy";
             this.dtpNgayLap.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpNgayLap.Location = new System.Drawing.Point(141, 123);
+            this.dtpNgayLap.Location = new System.Drawing.Point(141, 117);
             this.dtpNgayLap.MaxDate = new System.DateTime(2030, 12, 31, 0, 0, 0, 0);
             this.dtpNgayLap.MinDate = new System.DateTime(2000, 1, 1, 0, 0, 0, 0);
             this.dtpNgayLap.Name = "dtpNgayLap";
@@ -150,7 +150,7 @@ namespace Nhom7_DA1
             // 
             // tbtongtien
             // 
-            this.tbtongtien.Location = new System.Drawing.Point(141, 159);
+            this.tbtongtien.Location = new System.Drawing.Point(141, 153);
             this.tbtongtien.Name = "tbtongtien";
             this.tbtongtien.Size = new System.Drawing.Size(129, 20);
             this.tbtongtien.TabIndex = 6;
@@ -158,7 +158,7 @@ namespace Nhom7_DA1
             // 
             // tbMaKH
             // 
-            this.tbMaKH.Location = new System.Drawing.Point(141, 83);
+            this.tbMaKH.Location = new System.Drawing.Point(141, 77);
             this.tbMaKH.Name = "tbMaKH";
             this.tbMaKH.Size = new System.Drawing.Size(129, 20);
             this.tbMaKH.TabIndex = 5;
@@ -166,7 +166,7 @@ namespace Nhom7_DA1
             // 
             // tbMaHD
             // 
-            this.tbMaHD.Location = new System.Drawing.Point(141, 44);
+            this.tbMaHD.Location = new System.Drawing.Point(141, 38);
             this.tbMaHD.Name = "tbMaHD";
             this.tbMaHD.Size = new System.Drawing.Size(129, 20);
             this.tbMaHD.TabIndex = 4;
@@ -176,7 +176,7 @@ namespace Nhom7_DA1
             // 
             this.lbtongtien.AutoSize = true;
             this.lbtongtien.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbtongtien.Location = new System.Drawing.Point(36, 159);
+            this.lbtongtien.Location = new System.Drawing.Point(36, 153);
             this.lbtongtien.Name = "lbtongtien";
             this.lbtongtien.Size = new System.Drawing.Size(85, 21);
             this.lbtongtien.TabIndex = 3;
@@ -186,7 +186,7 @@ namespace Nhom7_DA1
             // 
             this.lbngaylap.AutoSize = true;
             this.lbngaylap.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbngaylap.Location = new System.Drawing.Point(36, 122);
+            this.lbngaylap.Location = new System.Drawing.Point(36, 116);
             this.lbngaylap.Name = "lbngaylap";
             this.lbngaylap.Size = new System.Drawing.Size(85, 21);
             this.lbngaylap.TabIndex = 2;
@@ -196,7 +196,7 @@ namespace Nhom7_DA1
             // 
             this.lbMaKH.AutoSize = true;
             this.lbMaKH.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbMaKH.Location = new System.Drawing.Point(36, 83);
+            this.lbMaKH.Location = new System.Drawing.Point(36, 77);
             this.lbMaKH.Name = "lbMaKH";
             this.lbMaKH.Size = new System.Drawing.Size(56, 21);
             this.lbMaKH.TabIndex = 1;
@@ -206,7 +206,7 @@ namespace Nhom7_DA1
             // 
             this.lbMaHD.AutoSize = true;
             this.lbMaHD.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbMaHD.Location = new System.Drawing.Point(36, 41);
+            this.lbMaHD.Location = new System.Drawing.Point(36, 35);
             this.lbMaHD.Name = "lbMaHD";
             this.lbMaHD.Size = new System.Drawing.Size(58, 21);
             this.lbMaHD.TabIndex = 0;
@@ -238,6 +238,7 @@ namespace Nhom7_DA1
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.menuStrip1);
+            this.Controls.Add(this.btnTaoBang);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "ThemHoaDon";
             this.Text = "ThemHoaDon";
