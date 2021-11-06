@@ -69,3 +69,16 @@ C:\Users\nvdien\Desktop\Nhom7_DA1\Nhom7_DA1\obj\Debug\Nhom7_DA1.csproj.GenerateR
 C:\Users\nvdien\Desktop\Nhom7_DA1\Nhom7_DA1\obj\Debug\Nhom7_DA1.csproj.CoreCompileInputs.cache
 C:\Users\nvdien\Desktop\Nhom7_DA1\Nhom7_DA1\obj\Debug\Nhom7_DA1.exe
 C:\Users\nvdien\Desktop\Nhom7_DA1\Nhom7_DA1\obj\Debug\Nhom7_DA1.pdb
+E:\TaiLieuHoc\Nam 4\CSDLNC\Nhom7_DA1\Nhom7_DA1\Nhom7_DA1\bin\Debug\Nhom7_DA1.exe.config
+E:\TaiLieuHoc\Nam 4\CSDLNC\Nhom7_DA1\Nhom7_DA1\Nhom7_DA1\bin\Debug\Nhom7_DA1.exe
+E:\TaiLieuHoc\Nam 4\CSDLNC\Nhom7_DA1\Nhom7_DA1\Nhom7_DA1\bin\Debug\Nhom7_DA1.pdb
+E:\TaiLieuHoc\Nam 4\CSDLNC\Nhom7_DA1\Nhom7_DA1\Nhom7_DA1\obj\Debug\Nhom7_DA1.csproj.AssemblyReference.cache
+E:\TaiLieuHoc\Nam 4\CSDLNC\Nhom7_DA1\Nhom7_DA1\Nhom7_DA1\obj\Debug\Nhom7_DA1.DoanhThu.resources
+E:\TaiLieuHoc\Nam 4\CSDLNC\Nhom7_DA1\Nhom7_DA1\Nhom7_DA1\obj\Debug\Nhom7_DA1.Menu.resources
+E:\TaiLieuHoc\Nam 4\CSDLNC\Nhom7_DA1\Nhom7_DA1\Nhom7_DA1\obj\Debug\Nhom7_DA1.Properties.Resources.resources
+E:\TaiLieuHoc\Nam 4\CSDLNC\Nhom7_DA1\Nhom7_DA1\Nhom7_DA1\obj\Debug\Nhom7_DA1.ThemHoaDon.resources
+E:\TaiLieuHoc\Nam 4\CSDLNC\Nhom7_DA1\Nhom7_DA1\Nhom7_DA1\obj\Debug\Nhom7_DA1.XemHoaDon.resources
+E:\TaiLieuHoc\Nam 4\CSDLNC\Nhom7_DA1\Nhom7_DA1\Nhom7_DA1\obj\Debug\Nhom7_DA1.csproj.GenerateResource.cache
+E:\TaiLieuHoc\Nam 4\CSDLNC\Nhom7_DA1\Nhom7_DA1\Nhom7_DA1\obj\Debug\Nhom7_DA1.csproj.CoreCompileInputs.cache
+E:\TaiLieuHoc\Nam 4\CSDLNC\Nhom7_DA1\Nhom7_DA1\Nhom7_DA1\obj\Debug\Nhom7_DA1.exe
+E:\TaiLieuHoc\Nam 4\CSDLNC\Nhom7_DA1\Nhom7_DA1\Nhom7_DA1\obj\Debug\Nhom7_DA1.pdb

@@ -33,5 +33,13 @@ namespace Nhom7_DA1
             dt.Show();
             this.Hide();
         }
+
+        private void btn_xemdshoadon_Click(object sender, EventArgs e)
+        {
+            XemHoaDon xemhd = new XemHoaDon();
+            xemhd.Activate();
+            xemhd.Show();
+            this.Hide();
+        }
     }
 }
