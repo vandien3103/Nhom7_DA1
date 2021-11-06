@@ -82,3 +82,16 @@ E:\TaiLieuHoc\Nam 4\CSDLNC\Nhom7_DA1\Nhom7_DA1\Nhom7_DA1\obj\Debug\Nhom7_DA1.csp
 E:\TaiLieuHoc\Nam 4\CSDLNC\Nhom7_DA1\Nhom7_DA1\Nhom7_DA1\obj\Debug\Nhom7_DA1.csproj.CoreCompileInputs.cache
 E:\TaiLieuHoc\Nam 4\CSDLNC\Nhom7_DA1\Nhom7_DA1\Nhom7_DA1\obj\Debug\Nhom7_DA1.exe
 E:\TaiLieuHoc\Nam 4\CSDLNC\Nhom7_DA1\Nhom7_DA1\Nhom7_DA1\obj\Debug\Nhom7_DA1.pdb
+C:\Users\nqduy\Desktop\Nhom7_DA1\Nhom7_DA1\bin\Debug\Nhom7_DA1.exe.config
+C:\Users\nqduy\Desktop\Nhom7_DA1\Nhom7_DA1\bin\Debug\Nhom7_DA1.exe
+C:\Users\nqduy\Desktop\Nhom7_DA1\Nhom7_DA1\bin\Debug\Nhom7_DA1.pdb
+C:\Users\nqduy\Desktop\Nhom7_DA1\Nhom7_DA1\obj\Debug\Nhom7_DA1.csproj.AssemblyReference.cache
+C:\Users\nqduy\Desktop\Nhom7_DA1\Nhom7_DA1\obj\Debug\Nhom7_DA1.DoanhThu.resources
+C:\Users\nqduy\Desktop\Nhom7_DA1\Nhom7_DA1\obj\Debug\Nhom7_DA1.Menu.resources
+C:\Users\nqduy\Desktop\Nhom7_DA1\Nhom7_DA1\obj\Debug\Nhom7_DA1.Properties.Resources.resources
+C:\Users\nqduy\Desktop\Nhom7_DA1\Nhom7_DA1\obj\Debug\Nhom7_DA1.ThemHoaDon.resources
+C:\Users\nqduy\Desktop\Nhom7_DA1\Nhom7_DA1\obj\Debug\Nhom7_DA1.XemHoaDon.resources
+C:\Users\nqduy\Desktop\Nhom7_DA1\Nhom7_DA1\obj\Debug\Nhom7_DA1.csproj.GenerateResource.cache
+C:\Users\nqduy\Desktop\Nhom7_DA1\Nhom7_DA1\obj\Debug\Nhom7_DA1.csproj.CoreCompileInputs.cache
+C:\Users\nqduy\Desktop\Nhom7_DA1\Nhom7_DA1\obj\Debug\Nhom7_DA1.exe
+C:\Users\nqduy\Desktop\Nhom7_DA1\Nhom7_DA1\obj\Debug\Nhom7_DA1.pdb

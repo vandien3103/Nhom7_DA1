@@ -50,10 +50,9 @@ namespace Nhom7_DA1
             // btnBackToMenu
             // 
             this.btnBackToMenu.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btnBackToMenu.Location = new System.Drawing.Point(1445, 490);
-            this.btnBackToMenu.Margin = new System.Windows.Forms.Padding(4);
+            this.btnBackToMenu.Location = new System.Drawing.Point(1047, 397);
             this.btnBackToMenu.Name = "btnBackToMenu";
-            this.btnBackToMenu.Size = new System.Drawing.Size(100, 41);
+            this.btnBackToMenu.Size = new System.Drawing.Size(75, 33);
             this.btnBackToMenu.TabIndex = 24;
             this.btnBackToMenu.Text = "Back";
             this.btnBackToMenu.UseVisualStyleBackColor = false;
@@ -61,9 +60,10 @@ namespace Nhom7_DA1
             // 
             // btnXemCTHD
             // 
-            this.btnXemCTHD.Location = new System.Drawing.Point(1356, 380);
+            this.btnXemCTHD.Location = new System.Drawing.Point(464, 288);
+            this.btnXemCTHD.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnXemCTHD.Name = "btnXemCTHD";
-            this.btnXemCTHD.Size = new System.Drawing.Size(159, 47);
+            this.btnXemCTHD.Size = new System.Drawing.Size(119, 38);
             this.btnXemCTHD.TabIndex = 23;
             this.btnXemCTHD.Text = "Xem CT Hóa Đơn";
             this.btnXemCTHD.UseVisualStyleBackColor = true;
@@ -72,11 +72,12 @@ namespace Nhom7_DA1
             // dgvCT_HoaDon
             // 
             this.dgvCT_HoaDon.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvCT_HoaDon.Location = new System.Drawing.Point(653, 113);
+            this.dgvCT_HoaDon.Location = new System.Drawing.Point(464, 72);
+            this.dgvCT_HoaDon.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dgvCT_HoaDon.Name = "dgvCT_HoaDon";
             this.dgvCT_HoaDon.RowHeadersWidth = 51;
             this.dgvCT_HoaDon.RowTemplate.Height = 24;
-            this.dgvCT_HoaDon.Size = new System.Drawing.Size(862, 247);
+            this.dgvCT_HoaDon.Size = new System.Drawing.Size(646, 201);
             this.dgvCT_HoaDon.TabIndex = 22;
             // 
             // groupBox1
@@ -84,29 +85,35 @@ namespace Nhom7_DA1
             this.groupBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.btnXemHD);
+            this.groupBox1.Controls.Add(this.btnXemCTHD);
             this.groupBox1.Controls.Add(this.dgvHoaDon);
+            this.groupBox1.Controls.Add(this.dgvCT_HoaDon);
             this.groupBox1.Controls.Add(this.lbMaHD);
             this.groupBox1.Controls.Add(this.tbMaHD);
-            this.groupBox1.Location = new System.Drawing.Point(16, 43);
+            this.groupBox1.Location = new System.Drawing.Point(12, 35);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(1529, 432);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Size = new System.Drawing.Size(1147, 351);
             this.groupBox1.TabIndex = 25;
             this.groupBox1.TabStop = false;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(340, 27);
+            this.label1.Location = new System.Drawing.Point(255, 22);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(244, 17);
+            this.label1.Size = new System.Drawing.Size(187, 13);
             this.label1.TabIndex = 12;
             this.label1.Text = "Cú pháp \'HD\' + \'số thứ tự\'. Ví dụ: HD1";
             // 
             // btnXemHD
             // 
-            this.btnXemHD.Location = new System.Drawing.Point(455, 355);
+            this.btnXemHD.Location = new System.Drawing.Point(12, 288);
+            this.btnXemHD.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnXemHD.Name = "btnXemHD";
-            this.btnXemHD.Size = new System.Drawing.Size(159, 47);
+            this.btnXemHD.Size = new System.Drawing.Size(119, 38);
             this.btnXemHD.TabIndex = 9;
             this.btnXemHD.Text = "Xem Hóa Đơn";
             this.btnXemHD.UseVisualStyleBackColor = true;
@@ -115,30 +122,29 @@ namespace Nhom7_DA1
             // dgvHoaDon
             // 
             this.dgvHoaDon.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvHoaDon.Location = new System.Drawing.Point(15, 88);
+            this.dgvHoaDon.Location = new System.Drawing.Point(11, 72);
+            this.dgvHoaDon.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dgvHoaDon.Name = "dgvHoaDon";
             this.dgvHoaDon.RowHeadersWidth = 51;
             this.dgvHoaDon.RowTemplate.Height = 24;
-            this.dgvHoaDon.Size = new System.Drawing.Size(599, 247);
+            this.dgvHoaDon.Size = new System.Drawing.Size(449, 201);
             this.dgvHoaDon.TabIndex = 7;
             // 
             // lbMaHD
             // 
             this.lbMaHD.AutoSize = true;
             this.lbMaHD.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbMaHD.Location = new System.Drawing.Point(10, 24);
-            this.lbMaHD.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbMaHD.Location = new System.Drawing.Point(8, 20);
             this.lbMaHD.Name = "lbMaHD";
-            this.lbMaHD.Size = new System.Drawing.Size(121, 24);
+            this.lbMaHD.Size = new System.Drawing.Size(100, 19);
             this.lbMaHD.TabIndex = 6;
             this.lbMaHD.Text = "Nhập MaHD";
             // 
             // tbMaHD
             // 
-            this.tbMaHD.Location = new System.Drawing.Point(139, 24);
-            this.tbMaHD.Margin = new System.Windows.Forms.Padding(4);
+            this.tbMaHD.Location = new System.Drawing.Point(113, 20);
             this.tbMaHD.Name = "tbMaHD";
-            this.tbMaHD.Size = new System.Drawing.Size(171, 22);
+            this.tbMaHD.Size = new System.Drawing.Size(137, 20);
             this.tbMaHD.TabIndex = 5;
             // 
             // menuStrip1
@@ -148,7 +154,8 @@ namespace Nhom7_DA1
             this.hoToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1557, 28);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(1145, 28);
             this.menuStrip1.TabIndex = 26;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -156,20 +163,19 @@ namespace Nhom7_DA1
             // 
             this.hoToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("hoToolStripMenuItem.Image")));
             this.hoToolStripMenuItem.Name = "hoToolStripMenuItem";
-            this.hoToolStripMenuItem.Size = new System.Drawing.Size(84, 24);
+            this.hoToolStripMenuItem.Size = new System.Drawing.Size(72, 24);
             this.hoToolStripMenuItem.Text = "Home";
             this.hoToolStripMenuItem.Click += new System.EventHandler(this.hoToolStripMenuItem_Click);
             // 
             // XemHoaDon
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1557, 544);
+            this.ClientSize = new System.Drawing.Size(1145, 442);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.btnBackToMenu);
-            this.Controls.Add(this.btnXemCTHD);
-            this.Controls.Add(this.dgvCT_HoaDon);
             this.Controls.Add(this.groupBox1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "XemHoaDon";
             this.Text = "XemHoaDon";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.XemHoaDon_FormClosing);
